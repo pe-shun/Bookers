@@ -1,0 +1,15 @@
+<h1>ようこそBookersへ！</h1>
+
+<p>Find me in app/views/homes/top.html.erb</p>
+
+<%= form_with model: List.new do |f| %>
+  <h4>Bookers では、さまざまな書籍に関するあなたの意見や
+
+　　　印象を共有し交換することができます
+
+　</h4>
+
+  <%= f.text_field :start %>
+
+
+<% end %>
